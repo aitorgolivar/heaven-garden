@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Garden Heaven</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+   <!-- header section starts  -->
+
+   <header class="header">
+
+      <section class="flex">
+
+         <a href="#home" class="logo"><img src="images/logo.png" alt=""></a>
+
+         <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#specialities">Specialities</a>
+            <a href="#gallery">gallery</a>
+            <a href="#team">team</a>
+            <a href="#contact">contact</a>
+         </nav>
+
+         <div id="menu-btn" class="fas fa-bars"></div>
+
+      </section>
+
+   </header>
+
+   <!-- header section ends -->
+
+   <!-- home section starts  -->
+
+   <div class="home-bg">
+
+      <section class="home" id="home">
+
+         <div class="content">
+            <h3>garden heaven</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut officia, accusantium mollitia laudantium
+               dolorum dolore.</p>
+            <a href="#about" class="btn">about us</a>
+         </div>
+
+      </section>
+
+   </div>
+
+   <!-- home section ends -->
+
+   <!-- about section starts  -->
+
+   <section class="about" id="about">
+
+      <div class="image">
+         <img src="images/about.png" alt="">
+      </div>
+
+      <div class="content">
+         <h3>The beauty of gardens that are able to make any day more beautiful</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam suscipit sunt repellendus, dolorum
+            recusandae placeat quae. Iste eaque aspernatur, animi deleniti voluptas, sunt molestias eveniet sint
+            consectetur facere a ex.</p>
+         <a href="#menu" class="btn">our menu</a>
+      </div>
+
+   </section>
+
+   <!-- about section ends -->
+
+   <!-- facility section starts  -->
+
+   <section class="facility" id="specialities">
+
+      <div class="heading">
+         <h3>Our specialities</h3>
+      </div>
+
+      <div class="box-container">
+
+         <div class="box">
+            <img src="images/icon-1.png" alt="">
+            <h3>varieties of plants</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, adipisci!</p>
+         </div>
+
+         <div class="box">
+            <img src="images/icon-2.png" alt="">
+            <h3>plants beans</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, adipisci!</p>
+         </div>
+
+         <div class="box">
+            <img src="images/icon-3.png" alt="">
+            <h3>gardening</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, adipisci!</p>
+         </div>
+
+         <div class="box">
+            <img src="images/icon-4.png" alt="">
+            <h3>ecology</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, adipisci!</p>
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- video section -->
+   <section id="video" class="videoReform">
+      <div class="video-wrapper flex">
+         <video loop autoplay loop>
+            <source src="videos/butterfly.mp4" type="video/mp4">
+         </video>
+
+      </div>
+   </section>
+   <!-- end of video section -->
+
+   <!-- menu section ends -->
+
+   <!-- gallery section starts  -->
+
+   <section class="gallery" id="gallery">
+
+      <div class="heading">
+         <h3>our gallery</h3>
+      </div>
+
+      <div class="box-container">
+         <img src="images/gallery-1.jpg" alt="">
+         <img src="images/gallery-2.jpg" alt="">
+         <img src="images/gallery-3.jpg" alt="">
+         <img src="images/gallery-4.jpg" alt="">
+         <img src="images/gallery-5.jpg" alt="">
+         <img src="images/gallery-6.jpg" alt="">
+      </div>
+
+   </section>
+
+   <!-- gallery section ends -->
+
+   <!-- team section starts  -->
+
+   <section class="team" id="team">
+
+      <div class="heading">
+         <h3>our team</h3>
+      </div>
+
+      <div class="box-container">
+
+         <div class="box">
+            <img src="images/team-1.jpg" alt="">
+            <h3>Alister Freeman</h3>
+         </div>
+         <div class="box">
+            <img src="images/team-2.jpg" alt="">
+            <h3>Victoria Pitt</h3>
+         </div>
+         <div class="box">
+            <img src="images/team-3.jpg" alt="">
+            <h3>Mona Lygan</h3>
+         </div>
+
+
+      </div>
+
+   </section>
+
+   <!-- team section ends -->
+
+   <!-- contact section starts  -->
+
+   <section class="contact" id="contact">
+
+      <div class="heading">
+         <h3>contact us</h3>
+      </div>
+
+      <div class="row">
+
+         <div class="image">
+            <img src="images/contact.png" alt="">
+         </div>
+
+         <form action="" method="post">
+            <h3>Contact us</h3>
+            <input type="text" name="name" required class="box" maxlength="20" placeholder="enter your name">
+            <input type="number" name="number" required class="box" maxlength="20" placeholder="enter your number"
+               min="0" max="9999999999" onkeypress="if(this.value.length == 10) return false">
+            <input type="number" name="guests" required class="box" maxlength="20" placeholder="how many guests" min="0"
+               max="99" onkeypress="if(this.value.length == 2) return false">
+            <input type="submit" name="send" value="send message" class="btn">
+         </form>
+
+      </div>
+
+   </section>
+
+   <!-- contact section ends -->
+
+   <!-- footer section starts  -->
+
+   <section class="footer">
+
+      <div class="box-container">
+
+         <div class="box">
+            <img src="images/footer-1.png" alt="">
+            <h3>our email</h3>
+            <p>example@gmail.com</p>
+            <p>example2@gmail.com</p>
+         </div>
+
+
+
+         <div class="box">
+            <img src="images/footer-2.png" alt="">
+            <h3>location</h3>
+            <p>toronto, canada</p>
+         </div>
+
+         <div class="box">
+            <img src="images/footer-3.png" alt="">
+            <h3>our number</h3>
+            <p>+255-852-2255</p>
+            <p>+228-415-6524</p>
+         </div>
+
+      </div>
+
+      <div class="credit"></div>
+
+   </section>
+
+   <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- custom js file link  -->
+   <script src="js/script.js"></script>
+
+</body>
+
+</html>
